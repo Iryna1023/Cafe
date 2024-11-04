@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <link rel="shortcut icon" href="img/menu-bake/kubdari.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/cart.js"></script>
+    <script type="module" src="./js/admin.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__background">
+            <div class="header__container">
+                <nav data-include="header-nav.html"></nav>
+            </div>
+        </div>
+    </header>
+    <form id="product-form">
+        <label for="id">ID продукту:</label>
+        <input type="text" id="id" required>
+        <br>
+        <label for="name__p">Назва:</label>
+        <input type="text" id="name__p" required>
+        <br>
+        <label for="image">Зображення (шлях):</label>
+        <input type="text" id="image" placeholder="Введіть шлях до зображення" required>
+        <br>
+        <label for="price">Ціна:</label>
+        <input type="number" id="price" required>
+        <br>
+        <label for="category">Категорія:</label>
+        <select id="category" class="category" required>
+            <option value="">Оберіть категорію</option>
+            <option value="вода">Вода</option>
+            <option value="сік">Сік</option>
+            <option value="чай">Чай</option>
+            <option value="кава">Кава</option>
+            <option value="хачапурі">Хачапурі</option>
+            <option value="піца на вершковій основі">Піца на вершковій основі</option>
+            <option value="піца на томатній основі">Піца на томатній основі</option>
+            <option value="пироги солені з печі на дровах">Пироги солені з печі на дровах</option>
+            <option value="слойки">Слойки</option>
+            <option value="пироги солодкі з печі на дровах">Пироги солодкі з печі на дровах</option>
+            <option value="булочки здобні">Булочки здобні</option>
+            <option value="кондитерські вироби">Кондитерські вироби</option>
+            <option value="хліб">Хліб</option>
+            <option value="лаваш">Лаваш</option>
+        </select> 
+        <br>
+        <button type="submit" class="submit">Додати продукт</button>
+        <button id="delete-button">Видалити продукт</button>
+    </form>
+    <div id="message"></div>
+<script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+</body>
+</html>

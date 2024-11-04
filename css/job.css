@@ -1,0 +1,59 @@
+.job.wrapper {
+    background-color: black;
+    padding: 20px;
+}
+
+.job__title{
+    font-size: 25px;
+    color: chocolate;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    
+}
+
+.job__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+.job__menu {
+    width: 250px;
+    height: 350px;
+    border: solid goldenrod 1px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.job__menu img {
+    padding: 10px;
+    width: 215px;
+    height: 160px;
+}
+
+.job__menu p {
+    text-align: center;
+    color: chocolate;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.menu__job__job {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+.menu__job__job button{
+    padding: 7px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, rgba(255,183,107,1) 0%,rgba(255,167,61,1) 50%,rgba(255,124,0,1) 51%,rgba(255,127,4,1) 100%);
+}
+
+.menu__job{
+    max-height: 180px;
+}

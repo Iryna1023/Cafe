@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@100;200;300;400;700&family=Lato:wght@300&family=Roboto:wght@300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+:root {
+  --body-fonts: 'Roboto', sans-serif;
+  --site-bg: #000;
+  --color-title: #fff;
+  --color-text: rgb(255, 255, 255);
+  --color-link: #47b1bb;
+  --color-social: rgb(169, 169, 169);
+  --color-border: #383838;
+  --color-text-content: #a9a9a9;
+  --color-border-bottom: rgba(255, 255, 255, 0.2);
+  --menu-svg-fill-hover: rgb(121, 121, 121);
+  --background-accent: rgba(53, 53, 53);
+  --header-background: rgba(0, 0, 0, 0.178);
+  --error-color: red;
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@media (max-width:1200px){
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width:992px){
+  .container {
+    max-width: 950px;
+  }
+}
+
+@media (max-width:767px){
+  .container {
+    max-width: none;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fixed {
+  position: fixed;
+}
+
+body {
+  height: 100%;
+  color: var(--color-title);
+  font-family: var(--body-fonts);
+  min-height: 500px;
+  background-color: #000;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+
+ overflow: hidden;
+
+  min-height: 100%;
+}
+
+
+svg {
+  fill: #fff;
+}

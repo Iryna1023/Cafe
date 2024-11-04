@@ -1,0 +1,54 @@
+<div class="footer">
+  <div class="line"></div>
+  <div class="footer__info container">
+      <div class="footer__brand">
+          <div class="footer__delivery">
+            <a href="#"><div class="delivery__name">Меню</div></a>
+            <a href="#"><div class="delivery__name">Вакансії</div></a>
+            <a href="#"><div class="delivery__name">Відгуки</div></a>
+            <a href="#"><div class="footer__complaint">Скарги і пропозиції</div></a>
+            <a href="#" id="deliveryLink">
+              <div class="delivery__title">Замовити з доставкою</div>
+          </a>
+        </div>
+      </div>
+<div class="footer__box">
+      <div class="footer__brand" id="tel">
+        <div class="contact__novigation" id="contactToggle">Контакти та адреса</div>
+        <div class="contact__details">
+            <div class="contact__tel">тел: +380991234567</div>
+            <div class="contact__tel">тел: +380991234567</div>
+            <div class="footer__map">м. Вознесенськ</div>
+        </div>
+    </div>
+    <div class="footer__brand" id="time">
+      <div class="work__title" id="workToggle">Графік роботи</div>
+      <div class="work__details">
+          <div class="work__day">Понеділок<span class="work__date">8:00 - 20:00</span></div>
+          <div class="work__day">Вівторок<span class="work__date">8:00 - 20:00</span></div>
+          <div class="work__day">Середа<span class="work__date">8:00 - 20:00</span></div>
+          <div class="work__day">Четверг<span class="work__date">8:00 - 20:00</span></div>
+          <div class="work__day">П'ятниця<span class="work__date">8:00 - 20:00</span></div>
+          <div class="work__day">Субота<span class="work__date">8:00 - 20:00</span></div>
+          <div class="work__day">Неділя<span class="work__date">8:00 - 20:00</span></div>
+      </div>
+  </div>
+</div>
+  </div>
+</div>
+<div id="modalFooter" class="modal" style="display:none;">
+  <div class="modal__content">
+      <span class="close">&times;</span>
+      <h2 class="modal-title">Замовлення доставки</h2>
+      <form id="deliveryFormFooter">
+          <label for="name">Ім'я, Прізвище:</label>
+          <input type="text" id="nameFooter" required>
+          <label for="address">Адреса доставки:</label>
+          <input type="text" id="addressFooter" required>
+          <label for="phone">Телефон:</label>
+          <input type="tel" id="phoneFooter" required maxlength="16" placeholder="введіть номер телефону з 10 цифр" />
+          <button class="btn__modal" type="submit">Відправити</button>
+      </form>
+  </div>
+</div>
+<script type="module" src="js/footer.js"></script>

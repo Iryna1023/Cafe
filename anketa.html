@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <link rel="shortcut icon" href="img/menu-bake/kubdari.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/cart.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__background">
+            <div class="header__container">
+                <nav data-include="header-nav.html"></nav>
+            </div>
+        </div>
+    </header>
+    <div class="navigation__anketa wrapper">
+    <div class="go__home">
+        <a href="index.html">
+            <div class="arrow-back">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 98.86" style="enable-background:new 0 0 122.88 98.86" xml:space="preserve">
+                    <style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style>
+                    <g>
+                        <path class="st0" d="M0,49.43l48.93,49.43V74.23c30.94-6.41,55.39,0.66,73.95,24.19c-3.22-48.4-36.29-71.76-73.95-73.31V0L0,49.43L0,49.43L0,49.43z"/>
+                    </g>
+                </svg>
+                <p class="comback">На головну</p>
+            </div>
+        </a>
+    </div>
+    <div class="separator">/</div>
+    <div class="go__back">
+        <div class="arrow-back" id="back-button">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 98.86" style="enable-background:new 0 0 122.88 98.86" xml:space="preserve">
+                <style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style>
+                <g>
+                    <path class="st0" d="M0,49.43l48.93,49.43V74.23c30.94-6.41,55.39,0.66,73.95,24.19c-3.22-48.4-36.29-71.76-73.95-73.31V0L0,49.43L0,49.43L0,49.43z"/>
+                </g>
+            </svg>
+            <p class="comback">На попередню сторінку</p>
+        </div>
+    </div>
+</div>
+</div>
+<p class="anketa__title">Анкета про працевлаштування</p>
+<form class="form__anketa">
+    <label for="name__p">ПІБ:</label>
+    <input type="text" id="name__p" name="name__p" required>
+    <label for="email">Електронна пошта:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="phone">Телефон:</label>
+    <input type="tel" id="phone" name="phone" required>
+    <label for="position">Посада, на яку претендуєте:</label>
+    <select id="education" name="education" required>
+        <option value="">Виберіть посаду</option>
+        <option value="пекар">Пекар</option>
+        <option value="офіціант">Офіціант</option>
+        <option value="Посудомийниця -к">Посудомийниця -к</option>
+        <option value="Кур'єр">Кур'єр</option>
+        <option value="Прибиральниця -к">Прибиральниця -к</option>
+    </select>
+    <label for="experience">Досвід роботи:</label>
+    <textarea id="experience" name="experience" rows="4" required></textarea>
+    <label for="education">Освіта:</label>
+    <select id="education" name="education" required>
+        <option value="">Виберіть рівень освіти</option>
+        <option value="середня">Повна загальна середня освіта</option>
+        <option value="вища">Фахова передвища освіта</option>
+        <option value="пту">Професійна (професійно-технічна) освіта</option>
+        <option value="вища">Вища</option>
+    </select>
+    <label for="skills">Ваші навички:</label>
+    <textarea id="skills" name="skills" rows="4" required></textarea>
+    <button type="submit">Відправити</button>
+</form>  
+<script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+</body>
+</html>

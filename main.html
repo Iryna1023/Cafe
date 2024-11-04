@@ -1,0 +1,29 @@
+<div class="main wrapper">
+    <div class="main__background">
+        <div class="btn__btn">
+            <a href="#"><button class="btn__buy__btn">Доставка</button></a>
+        </div>
+        <img class="bg__01" src="img/bg/cafe_fon.jpg" alt="">
+        <div class="btn">
+            <a href="#"><button class="btn__buy">Замовити випічку</button></a>
+        </div>
+    </div>
+  </div>
+<div id="modalMain" class="modal">
+    <div class="modal__content">
+        <span class="close">&times;</span>
+        <h2 class="modal-title">Замовлення доставки</h2>
+        <form id="deliveryForm">
+            <label for="name">Ім'я, Прізвище:</label>
+            <input type="text" id="name" required>
+            <label for="address">Адреса доставки:</label>
+            <input type="text" id="address" required>
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" required maxlength="16" placeholder="введіть номер телефону з 10 цифр" />
+            <button class="btn__modal" type="submit">Відправити</button>
+        </form>
+    </div>
+</div>
+<script type="module" src="js/index.js"></script>
+<script type="module" src="js/search-panel.js"></script>
+

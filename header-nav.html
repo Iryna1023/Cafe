@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тепло дому</title>
+</head>
+<body>
+<nav class="header__nav">
+    <div class="header__nav-logo">
+        <a class="header__nav-link" href="index.html">
+            <img src="img/menu-bake/02.png" alt="Cafe" class="header__nav-img" />
+        </a>
+    </div>
+    <div class="text-container">
+        <h1 class="main-title">Тепло дому</h1>
+        <div class="divider-container">
+            <div class="divider"></div>
+            <span class="sub-title">смачно як вдома</span>
+            <div class="divider"></div>
+        </div>
+    </div>
+    <button class="header__menu-btn" id="menu-btn">
+        <span class="header__navicon"></span>
+    </button>
+    <div class="menu-container" id="menu-container">
+        <ul class="header__burger" id="burger-menu">
+            <li class="burger__link"><a href="./index.html">Головна</a></li>
+            <li class="burger__link"><a href="#menu">Меню</a></li>
+            <li class="burger__link"><a href="drink.html">Напої</a></li>
+            <li class="burger__link"><a href="./job.html">Вакансії</a></li>
+            <li class="burger__link"><a href="#reviews">Відгуки</a></li>
+            <li class="burger__link"><a href="#" id="contacts-link">Контакти</a></li>
+            <li id="contact-info" class="hidden">
+                <p>Номер телефону:</p>
+                <p>+380991234567</p>
+                <p>+380991234567</p>
+            </li>
+        </ul>
+    </div>
+    <div class="header__nav-menu">
+        <div class="dropdown">
+            <ul class="header__nav-list nav-list">
+                <li class="nav-list__link"><a href="./index.html">Головна</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <ul class="header__nav-list nav-list">
+                <li class="nav-list__link"><a href="index.html">Меню</a></li>
+                <li class="dropdown-content">
+                    <a href="./hachapuri.html">Хачапурі</a>
+                    <a href="./pizza-on-cream.html">Піца на вершковій основі</a>
+                    <a href="./pizza-on-tomato.html">Піца на томатній основі</a>
+                    <a href="./purogy-soloni.html">Пироги солені з печі на дровах</a>
+                    <a href="./sloyki.html">Слойки</a>
+                    <a href="./purogi-solodki.html">Пироги солодкі з печі на дровах</a>
+                    <a href="./bulochki.html">Булочки здобні</a>
+                    <a href="./konduterski.html">Кондитерські вироби</a>
+                    <a href="./hlib.html">Хліб</a>
+                    <a href="./lavash.html">Лаваш</a>
+                </li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <ul class="header__nav-list nav-list">
+                <li class="nav-list__link"><a href="drink.html">Напої</a></li>
+                <li class="dropdown-content">
+                    <a href="./juice.html">Сік</a>
+                    <a href="./water.html">Вода</a>
+                    <a href="./tea.html">Чай</a>
+                    <a href="./cofe.html">Кава</a>
+                </li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <ul class="header__nav-list nav-list">
+                <li class="nav-list__link"><a href="#" id="openModal">Доставка і оплата</a></li>
+            </ul>
+            <div id="modal__delivery" class="modal">
+                <div class="modal-content__del">
+                    <span class="close" id="closeModal">&times;</span>
+                    <h2>Доставка та оплата</h2>
+                    <div class="modal__text">
+                        <p>Доставка випічки та напоїв у Вознесенську<br>Працюємо для Вас - у Вознесенську.</p>
+                        <p>Доставка здійснюється в межах тих зон, що зазначені на карті.<br>І ви завжди можете забрати своє замовлення самостійно зі знижкою 10% - за адресою - вул. Центральна, Вознесенськ.</p>
+                        <p>У вас є можливість зробити попереднє замовлення на певний день і час.<br>Дякуємо, що ви з нами!</p>
+                    </div>
+                    <div class="delivery-zones">
+                        <h3>Зони доставки</h3>
+                        <h5>центр міста та перший район</h5>
+                        <div class="zone">
+                            <p><span class="text">Мінімальне замовлення:</span> <span class="number">250 грн</span></p>
+                            <p><span class="text">Вартість доставки:</span> <span class="number">60 грн</span></p>
+                            <p><span class="text">Сума замовлення, для безкоштовної доставки:</span> <span class="number">250 грн</span></p>
+                        </div>
+                        <h5>район автопарка</h5>
+                        <div class="zone">
+                            <p><span class="text">Мінімальне замовлення:</span> <span class="number">300 грн</span></p>
+                            <p><span class="text">Вартість доставки:</span> <span class="number">70 грн</span></p>
+                            <p><span class="text">Сума замовлення, для безкоштовної доставки:</span> <span class="number">300 грн</span></p>
+                        </div>
+                        <h5>третій район</h5>
+                        <div class="zone">
+                            <p><span class="text">Мінімальне замовлення:</span> <span class="number">350 грн</span></p>
+                            <p><span class="text">Вартість доставки:</span> <span class="number">80 грн</span></p>
+                            <p><span class="text">Сума замовлення, для безкоштовної доставки:</span> <span class="number">350 грн</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <ul class="header__nav-list nav-list">
+                <li class="nav-list__link"><a href="./job.html">Вакансії</a></li>
+                <li class="nav-list__link"><a href="#" id="respons">Відгуки</a></li>
+            </ul>
+            <div id="modal" class="modal">
+                <div class="modal__content">
+                    <span class="close" id="closeBtn">&times;</span>
+                    <h2 class="modal-title">Залишити відгук</h2>
+                    <form id="feedbackForm">
+                        <label for="name">Ім'я та прізвище:</label>
+                        <input type="text" id="name" required>
+                        <label for="review">Ваш відгук:</label>
+                        <textarea id="review" required></textarea>
+                        <button class="btn__modal" type="submit">Надіслати</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <ul class="header__nav-list nav-list">
+                <li class="nav-list__link"><a href="#" id="contactHeader">Контакти</a></li>
+            </ul>
+            <div id="modalHeader" class="modal" style="display:none;">
+                <div class="modal__content">
+                    <span class="close">&times;</span>
+                    <h2 class="modal-title__header">Наше місцерозташування</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.0055191940173!2d31.333085775588128!3d47.56389579092662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cf77d24f658c07%3A0x5b032340e80d97b2!2z0LLRg9C70LjRhtGPINCm0LXQvdGC0YDQsNC70YzQvdCwLCDQktC-0LfQvdC10YHQtdC90YHRjNC6LCDQnNC40LrQvtC70LDRl9Cy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDU2NTAw!5e1!3m2!1sru!2sua!4v1728988135256!5m2!1sru!2sua"
+                        width="460" height="300" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__admin">
+        <a href="admin.html"><button type="button" id="myBtn">Admin</button></a>
+    </div>
+    <div class="contact_basket">
+        <div class="header__cart cart">
+            <a href="./cart.html" id="cart-link" data-prev="your_previous_page_url_here">
+                <div class="nav-link cart">
+                    <svg display="none">
+                        <symbol id="cart" viewBox="0 0 122.43 122.88">
+                            <g>
+                                <path class="st0" d="M22.63,12.6h93.3c6.1,0,5.77,2.47,5.24,8.77l-3.47,44.23c-0.59,7.05-0.09,5.34-7.56,6.41l-68.62,8.73l3.63,10.53c29.77,0,44.16,0,73.91,0c1,3.74,2.36,9.83,3.36,14h-12.28l-1.18-4.26c-24.8,0-34.25,0-59.06,0c-13.55-0.23-12.19,3.44-15.44-8.27L11.18,8.11H0V0h19.61C20.52,3.41,21.78,9.15,22.63,12.6L22.63,12.6z M53.69,103.92c5.23,0,9.48,4.25,9.48,9.48c0,5.24-4.24,9.48-9.48,9.48c-5.24,0-9.48-4.24-9.48-9.48C44.21,108.17,48.45,103.92,53.69,103.92L53.69,103.92z M92.79,103.92c5.23,0,9.48,4.25,9.48,9.48c0,5.24-4.25,9.48-9.48,9.48c-5.24,0-9.48-4.24-9.48-9.48C83.31,108.17,87.55,103.92,92.79,103.92L92.79,103.92z M30.8,43.07H45.9l-5.48-22.91c-5.4,0-10.72-0.01-15.93-0.01l1.84,6.86L26.39,27L30.8,43.07L30.8,43.07L30.8,43.07z M48.31,20.17l5.48,22.9h14.54l-5.5-22.88L48.31,20.17L48.31,20.17L48.31,20.17z M70.74,20.2l5.5,22.87h13.91l-5.48-22.85L70.74,20.2L70.74,20.2L70.74,20.2z M92.58,20.23l5.48,22.85l13.92,0l1.54-18.36c0.43-5.12,1.33-4.47-3.63-4.47C104.23,20.24,98.44,20.23,92.58,20.23L92.58,20.23L92.58,20.23z M111.49,48.89H99.45l3.97,16.56l0.98-0.13c6.07-0.87,5.67,0.52,6.15-5.21L111.49,48.89L111.49,48.89z M95.77,66.5l-4.22-17.61h-13.9l4.67,19.44L95.77,66.5L95.77,66.5L95.77,66.5z M74.66,69.37l-4.93-20.49l-14.55,0l5.37,22.41L74.66,69.37L74.66,69.37L74.66,69.37z M52.9,72.34l-5.61-23.45H32.4l6.96,25.3L52.9,72.34L52.9,72.34z" />
+                            </g>
+                        </symbol>
+                    </svg>
+                    <span id="my-cart" class="cart-badge">0</span>
+                    <svg class="cart">
+                        <use xlink:href="#cart"></use>
+                    </svg>
+                </div>
+            </a>
+        </div>
+    </div>
+</nav>
+<script type="module" src="js/index.js"></script>
+<script type="module" src="js/header.js"></script>
+</body>
+</html>

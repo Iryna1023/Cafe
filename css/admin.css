@@ -1,0 +1,63 @@
+
+#muBtn{
+    border: solid #87df3c 1px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+}
+#product-form{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#delete-button{
+    background: linear-gradient(to bottom, rgb(255 0 0 / 97%) 0%, rgba(0, 0, 0, 0) 100%);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+   
+    margin: 0 15px;
+}
+.submit{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#delete-button:hover{
+    background-color: #2f703e;
+}
+
+.submit:hover{
+    background-color: #2f703e;
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.pro__menu {
+    width: 230px; 
+    height: 350px;
+    border: solid goldenrod 1px;
+    margin: 10px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+
+
+.category-items {
+    display: flex; 
+    flex-wrap: wrap; 
+    margin-bottom: 20px; 
+}
+
+
+

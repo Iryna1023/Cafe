@@ -1,0 +1,500 @@
+{
+  "хачапурі": {
+    "po-ajarski": {
+      "key": "po-ajarski",
+      "name__p": "Хачапурі по аджарські",
+      "image": "img/hachapuri/po-ajarski.jpeg",
+      "price": 200,
+      "category": "хачапурі"
+    },
+    "karolivsky": {
+      "name__p": "Королівський",
+      "image": "img/hachapuri/karklivsky.jpeg",
+      "price": 240
+    },
+    "po-megrelski": {
+      "name__p": "Хачапурі по мегрельскі",
+      "image": "img/hachapuri/po-megrelski.jpeg",
+      "price": 235
+    }
+  },
+  "піца на вершковій основі": {
+    "karbonara": {
+      "name__p": "Карбонара",
+      "image": "img/pizza/carbonara.jpeg",
+      "price": 225
+    },
+    "papaya": {
+      "name__p": "Папайя",
+      "image": "img/pizza/papaya.jpeg",
+      "price": 240
+    },
+    "karne": {
+      "name__p": "Карне",
+      "image": "img/pizza/karne.jpeg",
+      "price": 235
+    },
+    "cezar": {
+      "name__p": "Цезар",
+      "image": "img/pizza/cezar.jpeg",
+      "price": 225
+    },
+    "al-salmon": {
+      "name__p": "Ал-Салмон",
+      "image": "img/pizza/al-salmon.jpeg",
+      "price": 240
+    },
+    "proshuto": {
+      "name__p": "Прошуто",
+      "image": "img/pizza/proshuto.jpeg",
+      "price": 235
+    },
+    "5cheese": {
+      "name__p": "5 сирів",
+      "image": "img/pizza/5cheese.jpeg",
+      "price": 225
+    },
+    "napole": {
+      "name__p": "Наполє",
+      "image": "img/pizza/napole.jpeg",
+      "price": 240
+    },
+    "polo": {
+      "name__p": "Поло",
+      "image": "img/pizza/polo.jpeg",
+      "price": 235
+    }
+  },
+  "піца на томатній основі": {
+    "salsulia": {
+      "name__p": "Салсиція",
+      "image": "img/pizza tomato/salsulia.jpeg",
+      "price": 235
+    },
+    "kalobreze": {
+      "name__p": "Калобрезе",
+      "image": "img/pizza tomato/kalobreze.jpeg",
+      "price": 225
+    },
+    "santonini": {
+      "name__p": "Сантоніні",
+      "image": "img/pizza tomato/santonini.jpeg",
+      "price": 225
+    },
+    "barbeku": {
+      "name__p": "Барбекю",
+      "image": "img/pizza tomato/barbeku.jpeg",
+      "price": 195
+    },
+    "saculia": {
+      "name__p": "Сацилійська",
+      "image": "img/pizza tomato/saculia.jpeg",
+      "price": 195
+    },
+    "paperoni": {
+      "name__p": "Папероні",
+      "image": "img/pizza tomato/paperoni.jpeg",
+      "price": 195
+    },
+    "kantri": {
+      "name__p": "Кантрі",
+      "image": "img/pizza tomato/kantri.jpeg",
+      "price": 195
+    },
+    "salamy": {
+      "name__p": "Салямі",
+      "image": "img/pizza tomato/salamy.jpeg",
+      "price": 195
+    }
+  },
+  "пироги солоні з печі на дровах": {
+    "purig suluguni": {
+      "name__p": "Пиріг із сиром сулугуні,бринзою",
+      "image": "img/purogy soloni/purig suluguni.jpeg",
+      "price": 225
+    },
+    "pig -sheece": {
+      "name__p": "Пиріг із свининою та сиром",
+      "image": "img/purogy soloni/pig -sheece.jpeg",
+      "price": 225
+    },
+    "farsh patat": {
+      "name__p": "Пиріг із фаршем та картоплею",
+      "image": "img/purogy soloni/farsh patat.jpeg",
+      "price": 195
+    },
+    "cheken mashroom": {
+      "name__p": "Пиріг із курятиною та печерицями",
+      "image": "img/purogy soloni/cheken mashroom.jpeg",
+      "price": 195
+    },
+    "yalovushuna sheece": {
+      "name__p": "Пиріг із яловичиною та сиром",
+      "image": "img/purogy soloni/yalovushuna sheece.jpeg",
+      "price": 195
+    },
+    "kapysta": {
+      "name__p": "Пиріг із капустою",
+      "image": "img/purogy soloni/kapysta.jpeg",
+      "price": 195
+    },
+    "induchka sheece": {
+      "name__p": "Пиріг із індичкою та сиром",
+      "image": "img/purogy soloni/induchka sheece.jpeg",
+      "price": 195
+    },
+    "patate mashroom": {
+      "name__p": "Пиріг із картоплею та печерицями",
+      "image": "img/purogy soloni/patate mashroom.jpeg",
+      "price": 195
+    }
+  },
+  "слойки": {
+    "sloyka-sheese": {
+      "name__p": "слойка із сиром бринза",
+      "image": "img/sloyka/sur brunza.jpeg",
+      "price": 70
+    },
+    "sloyka-cheeken": {
+      "name__p": "Слойка із курятиною та болг. перцем",
+      "image": "img/sloyka/cd.jpeg",
+      "price": 70
+    },
+    "sloyka-pig": {
+      "name__p": "Слойка із свининою",
+      "image": "img/sloyka/ds.jpeg",
+      "price": 70
+    },
+    "sloyka-chery": {
+      "name__p": "Слойка із вишнями",
+      "image": "img/sloyka/a.jpeg",
+      "price": 65
+    },
+    "sloyka-black": {
+      "name__p": "Слойка з чорницями",
+      "image": "img/sloyka/f.jpeg",
+      "price": 65
+    },
+    "purig apple": {
+      "name__p": "ПИРІГ ІЗ ЯБЛУКАМИ",
+      "image": "img/purogi solodki/g6.jpeg",
+      "price": 65
+    },
+    "purig chery": {
+      "name__p": "ПИРІГ ІЗ ВИШНЕЮ",
+      "image": "img/sloyka/cd.jpeg",
+      "price": 65
+    }
+  },
+  "пироги солодкі з печі на дровах": {
+    "purig cheese": {
+      "name__p": "ПИРІГ ІЗ СОЛОДКИМ СИРОМ",
+      "image": "img/purogi solodki/f.jpeg",
+      "price": 65
+    },
+    "purig black": {
+      "name__p": "ПИРІГ ІЗ ЧОРНИЦЕЮ",
+      "image": "img/purogi solodki/fe.jpeg",
+      "price": 65
+    },
+    "purig mal": {
+      "name__p": "ПИРІГ ІЗ МАЛИНОЮ",
+      "image": "img/purogi solodki/fef.jpeg",
+      "price": 55
+    },
+    "mak": {
+      "name__p": "ПИРІГ ІЗ МАКОМ",
+      "image": "img/purogi solodki/k.jpeg",
+      "price": 60
+    },
+    "mak chery": {
+      "name__p": "ПИРІГ ІЗ МАКОМ ТА ВИШНЕЮ",
+      "image": "img/purogi solodki/kg.jpeg",
+      "price": 65
+    },
+    "cream chery": {
+      "name__p": "ПИРІГ ІЗ ЗАВАРНИМ КРЕМОМ ТА ВИШНЕЮ",
+      "image": "img/purogi solodki/rg.jpeg",
+      "price": 65
+    },
+    "cream black": {
+      "name__p": "ПИРІГ ІЗ ЗАВАРНИМ КРЕМОМ ТА ЧОРНИЦЕЮ",
+      "image": "img/purogi solodki/t.jpeg",
+      "price": 65
+    },
+    "peach": {
+      "name__p": "ПИРІГ ІЗ ПЕРСИКАМИ",
+      "image": "img/purogi solodki/w.jpeg",
+      "price": 65
+    },
+    "sluva": {
+      "name__p": "ПИРІГ ІЗ СЛИВАМИ",
+      "image": "img/purogi solodki/xfgb.jpeg",
+      "price": 55
+    }
+  },
+  "булочки здобні": {
+    "bulki koru": {
+      "name__p": "ЗАВИВАНЕЦЬ З КОРИЦЕЮ",
+      "image": "img/bulki/4.jpeg",
+      "price": 45
+    },
+    "bulki mak": {
+      "name__p": "МАКОВИЙ ПИРІГ",
+      "image": "img/bulki/g.png",
+      "price": 95
+    },
+    "bulki sinabon": {
+      "name__p": "СІНАБОНИ З ШОКОЛАДОМ",
+      "image": "img/bulki/gr.jpeg",
+      "price": 65
+    },
+    "bulki asorti": {
+      "name__p": "СІНАБОНИ-АСОРТІ",
+      "image": "img/bulki/ju.jpeg",
+      "price": 65
+    },
+    "bulki cream": {
+      "name__p": "СІНАБОНИ З СИРНИМ КРЕМОМ",
+      "image": "img/bulki/r4.jpeg",
+      "price": 60
+    }
+  },
+  "кондитерські вироби": {
+    "sochnuk": {
+      "name__p": "СОЧНИК",
+      "image": "img/konduterski/41.jpeg",
+      "price": 80
+    },
+    "ekler": {
+      "name__p": "ЕКЛЕР",
+      "image": "img/konduterski/e.jpeg",
+      "price": 40
+    },
+    "vafla": {
+      "name__p": "ВАФЕЛЬНА ТРУБОЧКА",
+      "image": "img/konduterski/fr.jpeg",
+      "price": 40
+    },
+    "gorishok": {
+      "name__p": "ГОРІШОК",
+      "image": "img/konduterski/hyt.png",
+      "price": 15
+    },
+    "kada": {
+      "name__p": "ГРУЗИНСЬКА «КАДА»",
+      "image": "img/konduterski/rf.jpeg",
+      "price": 25
+    }
+  },
+  "хліб": {
+    "grechanuy": {
+      "name__p": "Хліб «ГРЕЧАНИЙ»",
+      "image": "img/hlib/d.jpeg",
+      "price": 35
+    },
+    "zlakovuy": {
+      "name__p": "Хліб «ЗЛАКОВИЙ»",
+      "image": "img/hlib/e.png",
+      "price": 40
+    },
+    "kampan": {
+      "name__p": "Хліб «КАМПАНЬ»",
+      "image": "img/hlib/eg.jpeg",
+      "price": 40
+    },
+    "cilnuy": {
+      "name__p": "Хліб «ЦІЛЬНОЗЕРНОВИЙ»",
+      "image": "img/hlib/g.jpeg",
+      "price": 40
+    },
+    "pshenuza": {
+      "name__p": "Хліб «ПШЕНИЧНИЙ»",
+      "image": "img/hlib/l.jpeg",
+      "price": 40
+    },
+    "velukuy": {
+      "name__p": "Хліб «ПШЕНИЧНИЙ ВЕЛИКИЙ»",
+      "image": "img/hlib/rg.jpeg",
+      "price": 40
+    },
+    "jutniy": {
+      "name__p": "Хліб «ЖИТНІЙ»",
+      "image": "img/hlib/uj.jpeg",
+      "price": 40
+    },
+    "borod": {
+      "name__p": "Хліб «БОРОДИНСЬКИЙ»",
+      "image": "img/hlib/y.jpeg",
+      "price": 30
+    }
+  },
+  "чай": {
+    "black tea": {
+      "name__p": "Чорний чай",
+      "image": "img/tea/black tea.jfif",
+      "price": 45
+    },
+    "fruit tea": {
+      "name__p": "Фруктовий чай",
+      "image": "img/tea/fruit.jfif",
+      "price": 55
+    },
+    "green tea": {
+      "name__p": "Зелений чай",
+      "image": "img/tea/green tea.jfif",
+      "price": 50
+    },
+    "oblepiha": {
+      "name__p": "Облепиховий чай",
+      "image": "img/tea/oblepiha.jfif",
+      "price": 65
+    },
+    "tea myata": {
+      "name__p": "Чай з м'ятою",
+      "image": "img/tea/tea myata.jfif",
+      "price": 60
+    },
+    "chamomile tea": {
+      "name__p": "Чай з ромашкою",
+      "image": "img/tea/tea romashka.jfif",
+      "price": 45
+    }
+  },
+  "кава": {
+    "capuchino": {
+      "name__p": "Капучіно",
+      "image": "img/cofe/capuchino.jfif",
+      "price": 75
+    },
+    "cofe": {
+      "name__p": "Кава",
+      "image": "img/cofe/cofe.jfif",
+      "price": 55
+    },
+    "expresso": {
+      "name__p": "Кофе експрессо",
+      "image": "img/cofe/expresso.jfif",
+      "price": 60
+    },
+    "late": {
+      "name__p": "Лате",
+      "image": "img/cofe/late.jfif",
+      "price": 65
+    }
+  },
+  "сік": {
+    "ananas": {
+      "name__p": "Ананасовий сік",
+      "image": "img/fresh/ananas.jfif",
+      "price": 45
+    },
+    "apple": {
+      "name__p": "Яблучний сік",
+      "image": "img/fresh/apple.jfif",
+      "price": 35
+    },
+    "banan": {
+      "name__p": "Банановий сік",
+      "image": "img/fresh/banan.jfif",
+      "price": 40
+    },
+    "multi": {
+      "name__p": "Мультифруктовий сік",
+      "image": "img/fresh/multi.jfif",
+      "price": 55
+    },
+    "orange": {
+      "name__p": "Апельсиновий сік",
+      "image": "img/fresh/orange.jfif",
+      "price": 40
+    },
+    "peach-juice": {
+      "name__p": "Персиковий сік",
+      "image": "img/fresh/peach.jfif",
+      "price": 45
+    },
+    "tomato": {
+      "name__p": "Томатний сік",
+      "image": "img/fresh/tomato.jfif",
+      "price": 40
+    },
+    "пап": {
+      "name__p": "влао",
+      "image": "img/water/candy water.jfif",
+      "price": 55
+    },
+    "амам": {
+      "name__p": "вм",
+      "image": "img/water/candy water.jfif",
+      "price": 25
+    }
+  },
+  "вода": {
+    "85": {
+      "name__p": "hh",
+      "image": "img/purogy soloni/farsh patat.jpeg",
+      "price": 44
+    },
+    "89": {
+      "name__p": "dd",
+      "image": "img/purogy soloni/farsh patat.jpeg",
+      "price": 52
+    },
+    "candy": {
+      "name__p": "Солодка вода",
+      "image": "img/water/candy water.jfif",
+      "price": 20
+    },
+    "mineral": {
+      "name__p": "Мінеральна вода",
+      "image": "img/water/mineral water.jfif",
+      "price": 15
+    },
+    "water": {
+      "name__p": "Вода",
+      "image": "img/water/water.jfif",
+      "price": 60
+    },
+    "fdv": {
+      "name__p": "fv",
+      "image": "img/water/candy water.jfif",
+      "price": 22
+    },
+    "vcv": {
+      "name__p": "bxx",
+      "image": "img/water/candy water.jfif",
+      "price": 6
+    },
+    "dsd": {
+      "name__p": "dsd",
+      "image": "img/water/candy water.jfif",
+      "price": 55
+    },
+    "sxx": {
+      "name__p": "sx",
+      "image": "img/water/candy water.jfif",
+      "price": 85
+    }
+  },
+  "Хачапурі": {
+    "85": {
+      "name__p": "вс",
+      "image": "img/water/candy water.jfif",
+      "price": 22
+    }
+  },
+  "лаваш": {
+    "44": {
+      "name__p": "ооол",
+      "category": "лаваш",
+      "image": "лоо",
+      "price": 87
+    },
+    "lavash": {
+      "name__p": "ЛАВАШ ГРУЗИНСЬКИЙ",
+      "image": "img/lavash/fr.jpeg",
+      "price": 25
+    }
+  }
+}

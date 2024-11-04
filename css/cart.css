@@ -1,0 +1,162 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.clear-cart {
+  margin-left: auto; 
+}
+
+.clear-button {
+  background-color: #ff4d4d; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 15px; 
+  cursor: pointer;
+  font-size: 16px; 
+}
+
+.clear-button:hover {
+  background-color: #ff1a1a; 
+}
+
+.separator {
+  margin: 0 10px;
+  color: #e78f1c;
+}
+
+.cart-items {
+  flex-grow: 1; 
+  margin: 20px auto; 
+  padding: 10px;
+  background-color: #222;
+  border-radius: 5px;
+  max-width: 800px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; 
+  margin-bottom: 150px;
+}
+
+.cart-table th,
+.cart-table td {
+  border: 1px solid #ccc; 
+  padding: 5px; 
+  text-align: center; 
+  font-size: 12px;
+}
+
+.cart-table th {
+  background-color: chocolate;
+}
+
+.cart-table {
+  
+  overflow: hidden;
+}
+
+.cart-table img {
+  max-width: 100%;
+  height: auto; 
+}
+
+.button {
+  margin: 0 5px; 
+}
+
+.quantity__item{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 104px;
+}
+
+.increase{
+ padding: 4px;
+ background-color: chocolate;
+ border: solid #fff 1px;  
+ margin: 2px;
+ color: #fff;
+ cursor: pointer;
+ 
+}
+
+.decrease{
+padding: 5px;
+background-color: chocolate;
+border:solid #fff 1px; 
+margin: 2px;
+color: #fff;
+cursor: pointer;
+}
+
+.remove__btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 104px;
+}
+.remove-item{
+padding: 3px;
+background-color: #c2290e; 
+color: #fff;
+cursor: pointer;
+width: 100%;
+
+}
+
+@media(max-width: 600px){
+  .navigation{
+    flex-direction: column;
+  }
+  .clear-cart{
+    margin: 10px;
+  }
+  .separator{
+    display: none;
+  }
+  .go__back{
+    margin-top: 5px;
+  }
+}
+@media(max-width: 478px){
+ 
+  .remove-item{
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 435px){
+ 
+  .remove-item{
+    font-size: 9px;
+  }
+}
+
+@media(max-width: 375px){
+ 
+  .remove-item{
+    font-size: 7px;
+  }
+}
+.checkout-button {
+  background-color: chocolate;
+  color: #fff; 
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.checkout-button:hover {
+  background-color: rgba(97, 196, 25, 1);
+  color: #fff; 
+}
+
+
