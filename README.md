@@ -36,22 +36,22 @@ To test the site on different devices and browsers, use the developer tools in y
 
 1.Navigate to the folder where the `server.js` file is located:
 
-## cd Cafe/js
+cd Cafe/js
 
 2.Install Dependencies:
 Make sure you have Node.js and npm installed on your machine. Then, install all the necessary dependencies:
 
-## npm install
+npm install
 
 3.Start the Server:
 Once the dependencies are installed, start the server using the following command:
 
-## node server.js
+node server.js
 
 4.View the Website:
 After the server starts, you can view the website by navigating to:
 
-## http://localhost:5500
+http://localhost:5500
 
 ## Contact
 
