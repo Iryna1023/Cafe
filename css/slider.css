@@ -84,18 +84,18 @@
     .slider__swiper{
         max-width: 1120px;
     }
+
     .swiper {
         max-width: 980px;
-
     }
 }
 @media (max-width: 1090px) {
     .slider__swiper{
         max-width: 1050px;
     }
+
     .swiper {
         max-width: 900px;
-       
     }
 }
 
@@ -103,9 +103,9 @@
     .slider__swiper{
         max-width: 1000px;
     }
+
     .swiper {
         max-width: 860px;
-       
     }
 }
 
@@ -113,39 +113,38 @@
     .slider__swiper{
         max-width: 970px;
     }
+
     .swiper {
-        max-width: 830px;
-       
+        max-width: 830px; 
     }
 }
 @media (max-width: 950px) {
     .slider__swiper{
         max-width: 950px;
     }
+
     .swiper {
         max-width: 800px;
-       
     }
 }
 @media (max-width: 915px) {
     .slider__swiper{
         max-width: 900px;
     }
+
     .swiper {
         max-width: 740px;
-       
     }
 }
 @media (max-width: 860px) {
     .swiper-slide {
         min-width: 100%; 
     }
+
     .swiper {
         max-width: 640px;
-       
     }
     .swiper-button-next {
-       
         margin: 0 30px 0 0;
     }
     
@@ -162,43 +161,24 @@
 @media (max-width: 768px) {
     .swiper {
         max-width: 550px;
-       
     }
 }
 @media (max-width: 700px) {
     .swiper {
         max-width: 480px;
-       
     }
 }
 @media (max-width: 640px) {
     .swiper {
         max-width: 420px;
-       
     }
 }
 
 @media (max-width: 576px) {
     .swiper {
         max-width: 350px;
-       
     }
-  
-    
 }
-/* @media (max-width: 505px) {
-    .swiper {
-        display: none;
-       
-    }
-  .slider_slider{
-    display: none;
-  }
-  .slider__swiper{
-   display: none;
-}
-    
-} */
 
 @media (max-width: 505px) {
     .swiper {
@@ -218,18 +198,12 @@
     }
 }
 
-
 @media (max-width: 410px) {
     .swiper {
         max-width: 245px;
         min-height: 180px;
     }
-    .swiper-button-next,
-   .swiper-button-prev {
-    top: var(--swiper-navigation-top-offset, 87%)!important;
-    width: calc(var(--swiper-navigation-size) / 10* 28)!important;
-    
-}
+   
 .review{
     padding: 5px;
 }
