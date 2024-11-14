@@ -19,7 +19,7 @@
 
 .job__menu {
     width: calc(20% - 20px);
-    height: 350px;
+    height: 100%;
     margin: 10px;
     border: solid goldenrod 1px;
     display: flex;
@@ -28,6 +28,7 @@
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
+
 }
 
 .job__menu::before {
@@ -81,12 +82,14 @@
 @media (max-width: 1200px) {
     .job__menu {
         width: calc(25% - 20px);
+       
     }
 }
 
 @media (max-width: 992px) {
     .job__menu {
         width: calc(33.33% - 20px);
+        
     }
 }
 
@@ -94,7 +97,8 @@
     .job__menu {
         width: calc(43% - 20px);
         text-align: center;
-        height: 230px;
+        
+
     }
 }
 
