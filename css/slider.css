@@ -8,7 +8,7 @@
 }
 .slider__swiper{
     max-width: 1300px;
-    height: 120px;
+    min-height: 250px;
     margin: auto;
     position: relative;
     overflow: hidden;
@@ -186,7 +186,7 @@
   
     
 }
-@media (max-width: 505px) {
+/* @media (max-width: 505px) {
     .swiper {
         display: none;
        
@@ -198,4 +198,40 @@
    display: none;
 }
     
+} */
+
+@media (max-width: 505px) {
+    .swiper {
+        max-width: 340px;
+    }
+}
+
+@media (max-width: 480px) {
+    .swiper {
+        max-width: 295px;
+    }
+}
+
+@media (max-width: 440px) {
+    .swiper {
+        max-width: 260px;
+    }
+}
+
+
+@media (max-width: 410px) {
+    .swiper {
+        max-width: 245px;
+        min-height: 180px;
+    }
+    .swiper-button-next,
+   .swiper-button-prev {
+    top: var(--swiper-navigation-top-offset, 87%)!important;
+    width: calc(var(--swiper-navigation-size) / 10* 28)!important;
+    
+}
+.review{
+    padding: 5px;
+}
+
 }
