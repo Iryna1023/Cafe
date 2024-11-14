@@ -418,29 +418,9 @@
       "name__p": "Томатний сік",
       "image": "img/fresh/tomato.jfif",
       "price": 40
-    },
-    "пап": {
-      "name__p": "влао",
-      "image": "img/water/candy water.jfif",
-      "price": 55
-    },
-    "амам": {
-      "name__p": "вм",
-      "image": "img/water/candy water.jfif",
-      "price": 25
     }
   },
   "вода": {
-    "85": {
-      "name__p": "hh",
-      "image": "img/purogy soloni/farsh patat.jpeg",
-      "price": 44
-    },
-    "89": {
-      "name__p": "dd",
-      "image": "img/purogy soloni/farsh patat.jpeg",
-      "price": 52
-    },
     "candy": {
       "name__p": "Солодка вода",
       "image": "img/water/candy water.jfif",
@@ -455,46 +435,11 @@
       "name__p": "Вода",
       "image": "img/water/water.jfif",
       "price": 60
-    },
-    "fdv": {
-      "name__p": "fv",
-      "image": "img/water/candy water.jfif",
-      "price": 22
-    },
-    "vcv": {
-      "name__p": "bxx",
-      "image": "img/water/candy water.jfif",
-      "price": 6
-    },
-    "dsd": {
-      "name__p": "dsd",
-      "image": "img/water/candy water.jfif",
-      "price": 55
-    },
-    "sxx": {
-      "name__p": "sx",
-      "image": "img/water/candy water.jfif",
-      "price": 85
     }
   },
-  "Хачапурі": {
-    "85": {
-      "name__p": "вс",
-      "image": "img/water/candy water.jfif",
-      "price": 22
-    }
-  },
-  "лаваш": {
-    "44": {
-      "name__p": "ооол",
-      "category": "лаваш",
-      "image": "лоо",
-      "price": 87
-    },
     "lavash": {
       "name__p": "ЛАВАШ ГРУЗИНСЬКИЙ",
       "image": "img/lavash/fr.jpeg",
       "price": 25
     }
   }
-}
