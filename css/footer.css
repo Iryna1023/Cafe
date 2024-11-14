@@ -4,21 +4,18 @@
     color: chocolate;
     padding: 60px 10px 0 10px;
 }
-
 @media (max-width: 768px) {
     .footer {
         font-size: 14px;
         margin: 0 10px;
-    }
+   }
 }
-
 .line {
-    height: 1px; 
+    height: 1px;
     background-color: chocolate;
     margin: 0 40px;
     box-sizing: border-box;
 }
-
 .footer__info {
     display: flex;
     justify-content: space-between;
@@ -28,13 +25,6 @@
     margin: 0 auto;
     text-align: center;
 }
-
-.footer__box {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
 .footer__brand {
     flex: 1;
     margin: 10px;
@@ -43,128 +33,78 @@
 #time {
     max-width: 250px;
 }
-
 @media (max-width: 998px) {
     .footer__info {
         margin: 0 10px;
-    }
+   }
 }
-
 @media (max-width: 768px) {
     .footer__info {
         font-size: 14px;
         margin: 0;
-    }
+   }
     .line {
         margin: 0 12px;
-    }
+   }
     .footer__brand {
         margin: 5px;
-    }
+   }
 }
-
 @media (max-width: 670px) {
     .footer__info {
         flex-direction: row;
         justify-content: right;
         font-size: 11px;
-    }
+   }
     .footer__brand {
-        margin-bottom: 0; 
-    }
-    #tel {
-        margin-left: 23px;
-    }
-    
-    .contact__details,
-    .work__details {
-        display: none;
-    }
-    .footer__box {
-        display: block;
-        margin-top: 10px;
-        max-width: 175px;
-    }
-   
+        margin-bottom: 0;
+   }
 }
-
 @media (max-width: 575px) {
-    .footer__box {
-        flex-direction: column;
-    }
     .footer__brand {
         margin: 10px 0;
         width: auto;
-    }
+   }
 }
-
 @media (max-width: 425px) {
     .footer__info{
         display: flex;
         flex-direction: column;
-    }
+   }
     .footer__brand{
         margin: 0 auto;
-    }
-    .footer__box{
-        margin: 10px 0 0 23px;
-    }
+   }
     #time{
         margin: 10px 0 0 -12px;
-    }
-    .work__details{
-        width: 145px;
-        margin-left: 42px;
-    }
+   }
 }
-@media (max-width: 375px) {
-    .footer__box{
-        margin: 10px 0 0 -3px;
-    }
- 
-}
-
-@media (max-width: 320px) {
-    .footer__box{
-        margin: 0 0 0 -30px;
-    }
- 
-}
-
 .footer__brand a {
     color: chocolate;
 }
-
 .footer__complaint {
     margin-top: 15px;
     font-size: 14px;
 }
-
 .footer__delivery {
     width: 200px;
     height: 100%;
     margin: 10px 0 0 0;
     text-align: left;
 }
-
 .delivery__title {
     font-size: 14px;
     margin-top: 10px;
 }
-
 .divider-container {
     margin-top: 5px;
 }
-
 .footer__delivery a {
     color: chocolate;
 }
-
 .delivery__name {
     margin-top: 15px;
     font-size: 14px;
 }
-
 .footer__contact {
     width: 200px;
     height: 100%;
@@ -172,49 +112,32 @@
     line-height: 2;
     text-align: left;
 }
-
-.contact__tel {
-    margin-bottom: 5px;
-}
-
-.contact__novigation {
-    margin-bottom: 10px;
-    font-size: 15px;
-    margin-top: 10px;
-}
-
 .main-title__footer {
     font-size: 14px;
     margin-bottom: -7px;
 }
-
 .sub-title__footer {
     font-size: 7px;
 }
-
 #modal-footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding-top: 70px;
 }
-
 #deliveryFormFooter {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-
 label {
     font-weight: bold;
 }
-
 input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
 .btn__modal-footer {
     padding: 10px;
     background-color: #4CAF50;
@@ -224,44 +147,20 @@ input {
     cursor: pointer;
     margin-top: 15px;
 }
-
 .btn__modal-footer:hover {
     background-color: #45a049;
 }
-
 .modal-title-footer {
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: bold;
 }
-
 .work__footer {
     font-family: Arial, sans-serif;
     margin: 20px 0;
 }
 
-.work__title {
-    margin-bottom: 10px;
-    font-size: 16px;
-}
 
-.work__day {
-    display: flex;
-    justify-content: space-between;
-    padding: 4px 0;
-}
-
-.work__date {
-    margin-left: 18px;
-}
-
-.work__day span {
-    flex: 1;
-}
-
-.work__day span:last-child {
-    text-align: right;
-}
 
 
