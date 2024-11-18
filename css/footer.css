@@ -86,7 +86,7 @@
     font-size: 14px;
 }
 .footer__delivery {
-    width: 200px;
+    min-width: 200px;
     height: 100%;
     margin: 10px 0 0 0;
     text-align: left;
@@ -106,7 +106,7 @@
     font-size: 14px;
 }
 .footer__contact {
-    width: 200px;
+    min-width: 200px;
     height: 100%;
     margin: 10px;
     line-height: 2;

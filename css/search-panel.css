@@ -1,11 +1,14 @@
-
+.search__box{
+  display: flex;
+  margin: 0 auto;
+  padding: 0 10px;
+}
 #searchPanel {
   display: flex;
   margin: 0 auto;
-  max-width: 675px;
-  margin-bottom: 10px;
- 
-  top: 8px;
+  width: 630px;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 #searchInput {
@@ -41,7 +44,7 @@
   color: black;
   border-top: none;
   z-index: 1;
-  margin-left: 330px;
+  margin-left: 410px;
 }
 
 #searchResults ul {
@@ -60,13 +63,21 @@
   background-color: #f0f0f0;
 }
 
-@media (max-width: 768px) {
-  #searchPanel {
-        width: 400px;
-        margin-top: -56px;
-        z-index: 1;
-        position: relative;
+@media (max-width: 1024px) {
+  #searchInput{
+    height: 30px;
+    font-size: 15px;
   }
+  #delButton {
+    height: 30px;
+  }
+  
+  #searchButton {
+    height: 30px;
+  }
+
+}
+@media (max-width: 768px) {
   #searchInput{
     height: 27px;
     font-size: 15px;
@@ -88,34 +99,18 @@
   }
 }
 
-@media (max-width: 530px) {
-  #searchPanel {
-        width: 350px;
-       
-  }
-  
-}
-@media (max-width: 475px) {
-  #searchPanel {
-        width: 300px;
-      
-  }
+
+@media (max-width: 425px) {
   #searchInput{
     font-size: 12px;
   }
-  
-}
-@media (max-width: 420px) {
-  #searchPanel {
-        width: 250px;
-      
-  }
-  
+
 }
 
 @media (max-width: 370px) {
   #searchPanel {
-        width: 200px;
+    width: 275px;
+    margin-top: 8px;
        
   }
   #searchInput{

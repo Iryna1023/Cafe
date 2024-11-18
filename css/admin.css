@@ -4,7 +4,7 @@
     background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
 }
 #product-form{
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto;
 }
 
@@ -16,7 +16,6 @@
     border-radius: 5px;
     cursor: pointer;
     float: right;
-   
     margin: 0 15px;
 }
 .submit{
@@ -42,7 +41,7 @@
 }
 
 .pro__menu {
-    width: 230px; 
+    min-width: 230px; 
     height: 350px;
     border: solid goldenrod 1px;
     margin: 10px;
