@@ -26,9 +26,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
+    text-align: center;
 }
 
 .menu__menu::before {
@@ -53,9 +55,11 @@
 }
 
 .menu__menu img {
-    padding: 10px;
+    display: block;
+    margin: 0 auto;
     width: 210px;
     height: 150px;
+    padding: 10px;
 }
 
 .menu__menu p {
@@ -98,23 +102,20 @@
 }
 
 @media (max-width: 576px) {
-    @media (max-width: 576px) {
-        .menu__menu {
-            width: 90%;
-            margin: 10px auto;
-            text-align: center;
-        }
-        
-        .menu__item {
-            flex-direction: column;
-            align-items: center;
-            max-width: 400px;
-            margin: 0 auto;
-        }
-        
-        .menu__buy {
-            flex-direction: column;
-        }
+    .menu__menu {
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
     }
     
+    .menu__item {
+        flex-direction: column;
+        align-items: center;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .menu__buy {
+        flex-direction: column;
+    }
 }
