@@ -1,20 +1,22 @@
-
 document.getElementById("menu-btn").addEventListener("click", function(event) {
-    event.preventDefault(); 
-    const menuContainer = document.getElementById("menu-container");
-    
-      if (menuContainer.style.display === "none" || menuContainer.style.display === "") {
-        menuContainer.style.display = "block"; 
-    } else {
-        menuContainer.style.display = "none"; 
-    }
+    event.preventDefault();
+    const header = document.querySelector(".header");
+    header.classList.toggle("active");
 });
+
 
 window.addEventListener("resize", function() {
+    const header = document.querySelector(".header");
+    const menuContainer = document.getElementById("menu-container");
+
     if (window.innerWidth > 768) {
-        document.getElementById("menu-container").style.display = "none";
+        header.classList.remove("active"); 
+        menuContainer.style.display = "none"; 
+    } else {
+        menuContainer.style.display = "none";
     }
 });
+
 
 
 document.getElementById('contacts-link').addEventListener('click', function(event) {
@@ -23,4 +25,5 @@ document.getElementById('contacts-link').addEventListener('click', function(even
     
     contactInfo.classList.toggle('show');
 });
+
 
